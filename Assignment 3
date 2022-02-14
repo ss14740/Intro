@@ -1,0 +1,49 @@
+let sunny;
+function setup() {
+  createCanvas(400, 400);
+  sunny = new Submarine(400, 200);
+}
+
+function draw() {
+  background(191, 228, 255);
+  fill(66, 195, 255);
+  rect(0, 150, 400, 250);
+  sunny.drawSubmarine();
+  sunny.moveSubmarine();
+}
+
+class Submarine {
+  constructor(xPos, yPos) {
+    this.x = xPos;
+    this.y = yPos;
+    this.speed = random(1, 5);
+  }
+  drawSubmarine() {
+    fill(255, 250, 117);
+    ellipse(this.x + 55, this.y, 40, 30);
+    ellipse(this.x + 55, this.y + 40, 40, 30);
+    fill(255, 250, 117);
+    rect(this.x - 18, this.y - 35, 40, 40);
+    fill(255, 159, 105);
+    rect(this.x + 55, this.y + 15, 30, 5);
+    fill(102, 97, 255);
+    ellipse(this.x, this.y + 20, 140, 70);
+    ellipse(this.x + 85, this.y + 5, 10, 25);
+    ellipse(this.x + 85, this.y + 30, 10, 25);
+    fill(255, 159, 105);
+    rect(this.x, this.y - 65, 7, 30);
+    ellipse(this.x - 54, this.y + 20, 30, 40);
+    rect(this.x - 23, this.y - 65, 30, 7);
+    fill(51, 54, 56);
+    ellipse(this.x + 10, this.y + 20, 25);
+    ellipse(this.x + 40, this.y + 20, 25);
+    ellipse(this.x - 20, this.y + 20, 25);
+    fill(255, 250, 117);
+    ellipse(this.x + 10, this.y + 20, 20);
+    ellipse(this.x + 40, this.y + 20, 20);
+    ellipse(this.x - 20, this.y + 20, 20);
+  }
+  moveSubmarine() {
+    this.x = this.x - this.speed;
+  }
+}
