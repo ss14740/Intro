@@ -1,0 +1,2 @@
+https://editor.p5js.org/ss14740/sketches/d8j_XRVmC
+For this assignment, I enjoyed creating my own image using "class". Working on this assignment improved my ability to use different elements such as shapes and colors. I also have a better grasp of coding for xPos and yPos. I enjoyed learning how to move my object. At first, I struggled with working with "this.x" and "this.y", as well as adding color to the image. I am still unsure how to use xPos and yPos for other shapes like triangles and lines. For this assignment, I only worked with ellipses and rectangles.
