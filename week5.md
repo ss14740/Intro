@@ -1,0 +1,3 @@
+So far, I have attempted coding for two different ideas I have for my midterm. In one of my codes, I attempted to animate a person jumping as I want to make a game similar to the no wifi game, but I struggled with the animation as well as making the frames go left to right instead of right to left. I also am lost on how to turn this simple animation into a game that invovles obstacles. My other code is the beginning of a maze. So far, I only have the start, end and line that interacts with the mouse coded. I had an easier time coding the maze as I was able to use similar code that we covered in class. 
+first code: https://editor.p5js.org/ss14740/sketches/-DNok9Emm
+second code: https://editor.p5js.org/ss14740/sketches/idgicQKCb
