@@ -1,0 +1,1 @@
+For my final project, I want to use arduino and p5 to create an interactive art and music piece. I intend to use a potentiometer, sensor, and switch to create an complex instrument that can change octaves. I will create a canvas on p5 and the paint stroke and colours will correspond with the notes played from the arduino board.
